@@ -10,7 +10,7 @@ public class Program {
         UI.printBoard(cm.getPieces());
 
 
-        
+
 
     }
 }
