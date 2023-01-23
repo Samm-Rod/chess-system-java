@@ -22,6 +22,14 @@ public class Board {
     }
 
 
+    // inform the piece in a position
+    public void placePiece(Piece piece, Position position){
+        pieces[position.getRow()][position.getColumn()] = piece;
+        piece.position = position;
+    }
+
+
+    // getters setters
     public int getRows() {
         return rows;
     }
